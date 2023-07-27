@@ -7,7 +7,8 @@ if (age >= 18) {
     console.log('Vous êtes majeur');
 } else {
     console.log('Vous êtes mineur');
-}
+};
+
 
 // --------------------------------------------
 // Exercice 2 
@@ -18,7 +19,7 @@ if (num %2 == 0) {
     console.log('Le nombre est pair');
 } else {
     console.log('Le nombre est impair');
-}
+};
 
 
 // --------------------------------------------
@@ -37,7 +38,7 @@ if (mark >= 0 && mark <= 3) {
     console.log('Bien');
 } else {
     console.log('Excellent');
-}
+};
 
 
 // ----------------------------------------------
@@ -67,7 +68,7 @@ switch (day) {
         break;
     default :
         displayDay = 'Dimanche';
-}
+};
 
 console.log(displayDay);
 

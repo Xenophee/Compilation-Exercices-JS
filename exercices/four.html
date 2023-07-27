@@ -59,12 +59,15 @@
                         <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
                             <div class="text">
                                 <ul>
-                                    <li class="mb-3">Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.</li>
-                                    <li class="mb-3">Calculer sa moyenne et l'afficher à l'écran avec une appréciation.</li>
+                                    <li class="mb-3">Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+                                    </li>
+                                    <li class="mb-3">Calculer sa moyenne et l'afficher à l'écran avec une appréciation.
+                                    </li>
                                 </ul>
                             </div>
                             <div class="d-flex justify-content-center mt-3">
-                                <dialog><img src="../public/assets/img/exercices/4.PNG" class="img-fluid" alt="Code de l'exercice 4"></dialog>
+                                <dialog><img src="../public/assets/img/exercices/4.png" class="img-fluid"
+                                        alt="Code de l'exercice 4"></dialog>
                                 <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
                                     code</button>
                             </div>
@@ -80,7 +83,7 @@
 
         <section>
             <div class="container-fluid result-container  py-5 mb-5">
-                
+
                 <div class="row d-flex justify-content-center py-5">
                     <div class="col-12 col-sm-8 col-md-9 col-lg-3">
                         <!-- formulaire  -->
@@ -90,23 +93,28 @@
                                 <div class="d-flex flex-column justify-content-center">
                                     <div class="mb-4">
                                         <label for="noteOne" class="form-label">Première note :</label>
-                                        <input type="number" name="noteOne" class="text-center form-control" id="noteOne">
+                                        <input type="number" name="noteOne" class="text-center form-control"
+                                            id="noteOne">
                                     </div>
                                     <div class="mb-4">
                                         <label for="noteTwo" class="form-label">Deuxième note :</label>
-                                        <input type="number" name="noteTwo" class="text-center form-control" id="noteTwo">
+                                        <input type="number" name="noteTwo" class="text-center form-control"
+                                            id="noteTwo">
                                     </div>
                                     <div class="mb-4">
                                         <label for="noteThree" class="form-label">Troisième note :</label>
-                                        <input type="number" name="noteThree" class="text-center form-control" id="noteThree">
+                                        <input type="number" name="noteThree" class="text-center form-control"
+                                            id="noteThree">
                                     </div>
                                     <div class="mb-4">
                                         <label for="noteFour" class="form-label">Quatrième note :</label>
-                                        <input type="number" name="noteFour" class="text-center form-control" id="noteFour">
+                                        <input type="number" name="noteFour" class="text-center form-control"
+                                            id="noteFour">
                                     </div>
                                     <div class="mb-5">
                                         <label for="noteFive" class="form-label">Cinquième note :</label>
-                                        <input type="number" name="noteFive" class="text-center form-control" id="noteFive">
+                                        <input type="number" name="noteFive" class="text-center form-control"
+                                            id="noteFive">
                                     </div>
                                     <div class="d-flex justify-content-center">
                                         <button type="submit" class="btn px-5 py-2 shadow" id="send">Envoyer</button>
@@ -114,6 +122,13 @@
                                 </div>
                             </fieldset>
                         </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-light text-center mb-4">Résultat :</h2>
+                        <p class="text-light text-center" id="result"></p>
                     </div>
                 </div>
 

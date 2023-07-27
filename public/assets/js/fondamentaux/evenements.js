@@ -12,6 +12,7 @@ button.onclick = () => {
     console.log('click onclick');
 };
 
+
 // -------------------------------------------------------------------------------
 // Exercice 2
 
@@ -19,7 +20,7 @@ let picture = document.getElementById('picture');
 
 picture.addEventListener('mouseover', () => {
     console.log(picture.getAttribute('src'));
-}) ;
+});
 
 
 // -------------------------------------------------------------------------------
@@ -101,4 +102,4 @@ select.addEventListener('change', (event) => {
 showResult.addEventListener('click', () => {
     let resultContainer = document.querySelector('.result-container');
     resultContainer.classList.toggle('d-none');
-})
+});

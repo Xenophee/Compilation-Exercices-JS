@@ -3,7 +3,7 @@
 
 for (let year = 2020; year < 2031; year++) {
     console.log(year);
-}
+};
 
 
 // -------------------------------------------------------------------------------
@@ -14,8 +14,8 @@ for (let number = 0; number <= 100; number++) {
         console.log(`${number} est un multiple de 7`);
     } else {
         console.log(number);
-    }   
-}
+    };
+};
 
 
 // ---------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ let startDay = 1;
 while (startDay < randomDay) {
     console.log(`Jour ${startDay} de l'année`);
     startDay++;
-}
+};
 
 console.log(`Le jour ${randomDay} est atteint`);
 
@@ -60,9 +60,9 @@ console.log(`Le jour ${randomDay} est atteint`);
 let firstNumber = 5; 
 let secondNumber = 7;
 
-    while (firstNumber * secondNumber < 250) {
-        console.log(`Le résultat est ${firstNumber * secondNumber}`);
-        secondNumber = firstNumber * secondNumber;
-    }
+while (firstNumber * secondNumber < 250) {
+    console.log(`Le résultat est ${firstNumber * secondNumber}`);
+    secondNumber = firstNumber * secondNumber;
+};
 
 
