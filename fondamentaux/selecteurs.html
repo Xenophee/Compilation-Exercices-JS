@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Les sélecteurs</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="../index.html">Fondamentaux-JS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse ps-3" id="navbarNav">
+                    <ul class="navbar-nav mt-4 mt-md-0">
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" aria-current="page" href="./variables.html">Variables</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./conditions.html">Conditions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./fonctions.html">Fonctions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./tableaux.html">Tableaux</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./boucles.html">Boucles</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link active fs-5" href="./selecteurs.html">Sélecteurs</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./evenements.html">Evènements</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./objets.html">Objets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main class="mb-5">
+        <section>
+            <div class="container-fluid main-container shadow-lg py-3 py-md-5 px-md-5 mb-5">
+                <h1 class="text-center shadow py-3 mb-5">Les sélecteurs</h1>
+
+                <div class="row justify-content-around pt-md-5">
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 1 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 1</h2>
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Télécharger la ressource selecteurs.html (en bas de page).</li>
+                                    <li class="mb-2">Créer une variable <strong>textToDisplay</strong> contenant le
+                                        texte suivant : <em>Comment devenir un AS en JS</em>.</li>
+                                    <li class="mb-2">A l'aide des sélecteurs javascript, changer le texte dans la balise h1 avec le
+                                        texte initialisé dans la variable <strong>textToDisplay</strong>.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/1.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 1"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 2 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 2</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Télécharger la ressource selecteurs.html. Dans la console :</li>
+                                    <li class="mb-2">Afficher le contenu de la balise <strong>h1</strong>.</li>
+                                    <li class="mb-2">Afficher le contenu de la balise ayant pour class
+                                        <strong>description</strong>.</li>
+                                    <li class="mb-2">Afficher individuellement le contenu html de chaque balise
+                                        <strong>li</strong>.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/2.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 2"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 3 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 3</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">En utilisant la ressource selecteurs.html, modifier en javascript,
+                                        le contenu des balises li de la manière suivante :</li>
+                                    <li class="mb-2">1 - PHP</li>
+                                    <li class="mb-2">2 - Ruby</li>
+                                    <li class="mb-2">3 - ...</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/3.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 3"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 4 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 4</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">En utilisant la ressource selecteurs.html, afficher dans le champs
+                                        caché la source de l'image.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/4.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 4"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 5 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 5</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">En JS, ajouter une classe <strong>important</strong> à la balise
+                                        span, permettant de mettre en gras le texte.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/5.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 5"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 6 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 6</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">En utilisant la ressource selecteurs.html, ajouter une classe <strong>red</strong>
+                                        donnant la couleur rouge à l'item <em>Javascript</em> dans la liste des langages de
+                                        programmation.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/selecteurs/6.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 6"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex flex-wrap justify-content-evenly mb-5">
+            <a href="../public/assets/download/selecteurs.zip" download="selecteurs.zip" class="btn py-3 px-5 mb-4 mb-md-0">Télécharger la ressource</a>
+            <button type="button" class="btn py-3 px-5" id="showResult">Voir le résultat des exercices</button>
+        </div>
+
+        <section>
+            <div class="container-fluid result-container d-none py-5 mb-5">
+
+                <div class="row d-flex justify-content-center text-center pt-5">
+                    <div class="col">
+                        <h1 class="py-3" id="title">Apprendre le Javascript</h1>
+                        <p class="description mt-5">Le javascript est un <span>language de programmation</span>.</p>
+                        <img src="../public/assets/img/61df8b753a6d44ccebe3755159a756b6.jpg" class="img-fluid my-5" id="picture">
+                    </div>
+                </div>
+
+                <!-- Liste -->
+                <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                        <ul id="languagesList">
+                            <li>PHP</li>
+                            <li>Ruby</li>
+                            <li>Java</li>
+                            <li>Javascript</li>
+                            <li>Swift</li>
+                            <li>C#</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Champ pour la source de l'image -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-7 mb-3">
+                        <input type="text" name="hidden_src_image" class="form-control" id="src_image">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/fondamentaux/selecteurs.js"></script>
+    <script src="../public/assets/js/script.js"></script>
+</body>
+
+</html>

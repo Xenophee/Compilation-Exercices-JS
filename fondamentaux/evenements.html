@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Les événements</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="../index.html">Fondamentaux-JS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse ps-3" id="navbarNav">
+                    <ul class="navbar-nav mt-4 mt-md-0">
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" aria-current="page" href="./variables.html">Variables</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./conditions.html">Conditions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./fonctions.html">Fonctions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./tableaux.html">Tableaux</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./boucles.html">Boucles</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./selecteurs.html">Sélecteurs</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link active fs-5" href="./evenements.html">Evènements</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./objets.html">Objets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main class="mb-5">
+        <section>
+            <div class="container-fluid main-container shadow-lg py-3 py-md-5 px-md-5 mb-5">
+                <h1 class="text-center shadow py-3 mb-5">Les événements</h1>
+
+                <div class="row justify-content-around pt-md-5">
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 1 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 1</h2>
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans une page HTML, créer un bouton <strong>Click-me</strong>.</li>
+                                    <li class="mb-2">Au clic sur ce bouton, afficher dans la console <em>Click</em>.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/1.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 1"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 2 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 2</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans une page HTML, intégrer une image.</li>
+                                    <li class="mb-2">Au survol de cette image, afficher dans la console, la source de
+                                        l'image.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/2.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 2"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 3 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 3</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans la console, pour chaque touche appuyée par l'utilisateur,
+                                        afficher : <br> code de la touche -> valeur de la touche (Ex: 13 -> "Enter").
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/3.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 3"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 4 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 4</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans une page HTML, créer une liste de 5 métiers du numérique (ou pas).</li>
+                                    <li class="mb-2">Dans la console, afficher le métier du numérique sur lequel
+                                        l'utilisateur clique.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/4.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 4"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 5 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 5</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans une page HTML, créer un formulaire contenant un champs
+                                        <strong>firstname</strong> et un champs <strong>lastname</strong>.</li>
+                                    <li class="mb-2">A la validation du formulaire, afficher la valeur du nom et du
+                                        prénom dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/5.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 5"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 6 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 6</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Avec le formulaire de l'exercice 5, lorsque l'utilisateur est dans
+                                        un champs, changer la couleur de fond, et lorsqu'il quitte le champs, retirer la
+                                        couleur de fond.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/6.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 6"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 7 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 7</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans le formulaire de l'exercice 5, ajouter un select contenant les
+                                        jours de la semaine.</li>
+                                    <li class="mb-2">Quand l'utilisateur choisi un élément de la liste, afficher sa
+                                        valeur (1 pour lundi, 2 pour mardi...) dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/evenements/7.PNG" class="img-fluid"
+                                        alt="Code de l'exercice 7"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-center mb-5">
+            <button type="button" class="btn py-3 px-5" id="showResult">Voir le résultat des exercices</button>
+        </div>
+
+        <section>
+            <div class="container-fluid result-container d-none py-5 mb-5">
+                <div class="row justify-content-around mt-md-5">
+                    <div class="col d-flex justify-content-center">
+                        <button type="button" class="btn py-2 px-5 text-light shadow" id="clickMe">Click me</button>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <img src="../public/assets/img/a9b1471_17806-xsb5q2.jpg" alt="This is fine" class="img-fluid" id="picture">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <ul id="list">
+                            <li class="text-light">Diantre !</li>
+                            <li class="text-light">Sacrebleu !</li>
+                            <li class="text-light">Cornegidouille !</li>
+                            <li class="text-light">Saquerlotte !</li>
+                            <li class="text-light">Mordious !</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-6">
+                        <form class="shadow py-5 px-5">
+                            <fieldset>
+                                <legend class="text-center mb-4">Formulaire</legend>
+                                <div class="d-flex flex-wrap justify-content-around">
+                                    <div>
+                                        <label for="lastname" class="form-label">Nom :</label>
+                                        <input type="text" name="lastname" class="form-control" id="lastname">
+                                    </div>
+
+                                    <div class="mt-4 mt-md-0">
+                                        <label for="firstname" class="form-label">Prénom :</label>
+                                        <input type="text" name="firstname" class="form-control" id="firstname">
+                                    </div>
+                                </div>
+
+                                <div class="px-md-5 mt-4">
+                                    <label for="day-select" class="form-label">Choisir un jour de la semaine :</label>
+                                    <select name="days" id="daySelect" class="form-select form-select mb-3"
+                                        aria-label=".form-select-lg example">
+                                        <option value="">-</option>
+                                        <option value="1">Lundi</option>
+                                        <option value="2">Mardi</option>
+                                        <option value="3">Mercredi</option>
+                                        <option value="4">Jeudi</option>
+                                        <option value="5">Vendredi</option>
+                                        <option value="6">Samedi</option>
+                                        <option value="7">Dimanche</option>
+                                    </select>
+                                </div>
+
+                                <!-- Bouton envoyer -->
+                                <div class="d-flex justify-content-center mt-5">
+                                    <button type="submit" class="btn px-5 text-light shadow" id="send">Envoyer</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/fondamentaux/evenements.js"></script>
+    <script src="../public/assets/js/script.js"></script>
+</body>
+
+</html>

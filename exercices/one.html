@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Exercice 1</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="../index.html">Exercices-JS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse ps-3" id="navbarNav">
+                    <ul class="navbar-nav mt-4 mt-md-0">
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link active fs-5" aria-current="page" href="./one.html">Un</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./two.html">Deux</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./three.html">Trois</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./four.html">Quatre</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./five.html">Cinq</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main>
+        <section>
+            <div class="container-fluid main-container shadow-lg py-3 py-md-5 px-md-5 mb-5">
+                <h1 class="text-center shadow py-3 mb-5">Exercice 1</h1>
+
+                <div class="row justify-content-around">
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 1 -->
+                    <div class="col-12 col-md-10 col-xl-8 col-xxl-6 exo py-5 mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-3">Créer un formulaire demandant un mot de passe et une confirmation de mot de passe.</li>
+                                    <li class="mb-3">Au clic sur un bouton, si les deux champs sont identiques, utiliser une classe css pour les entourer de vert, sinon les entourer de rouge.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <dialog><img src="../public/assets/img/exercices/1.PNG" class="img-fluid" alt="Code de l'exercice 1"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-center mb-5">
+            <button type="button" class="btn py-3 px-5" id="showResult">Voir le résultat de l'exercice</button>
+        </div>
+
+        <section>
+            <div class="container-fluid result-container d-none py-5 mb-5">
+                
+                <div class="row d-flex justify-content-center py-5">
+                    <div class="col-12 col-sm-8 col-md-9 col-lg-6">
+                        <!-- formulaire  -->
+                        <form class="py-4 px-4">
+                            <fieldset>
+                                <legend class="text-center mb-5">Formulaire</legend>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="mb-4">
+                                        <label for="password" class="form-label">Mot de passe :</label>
+                                        <input type="password" name="password" class="form-control" id="password">
+                                    </div>
+                                    <div class="mb-5">
+                                        <label for="confirmPassword" class="form-label">Confirmation de mot de passe :</label>
+                                        <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn px-5 py-2 shadow" id="send">Envoyer</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/exercices/one.js"></script>
+    <script src="../public/assets/js/script.js"></script>
+    <script src="../public/assets/js/exercices/script.js"></script>
+</body>
+
+</html>

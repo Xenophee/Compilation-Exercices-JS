@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Les conditions</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="../index.html">Fondamentaux-JS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse ps-3" id="navbarNav">
+                    <ul class="navbar-nav mt-4 mt-md-0">
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" aria-current="page" href="./variables.html">Variables</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link active fs-5" href="./conditions.html">Conditions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./fonctions.html">Fonctions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./tableaux.html">Tableaux</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./boucles.html">Boucles</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./selecteurs.html">Sélecteurs</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./evenements.html">Evènements</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./objets.html">Objets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main>
+        <section>
+            <div class="container-fluid main-container shadow-lg py-3 py-md-5 px-md-5 mb-5">
+                <h1 class="text-center shadow py-3 mb-5">Les conditions</h1>
+
+                <div class="row justify-content-around pt-md-5">
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 1 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 1</h2>
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer une variable <strong>age</strong> et lui donner une valeur.
+                                    </li>
+                                    <li class="mb-2">A l'aide d'une condition, si ce nombre est supérieur à 18, afficher
+                                        dans la console le message <em>Vous êtes majeur</em>, sinon, <em>Vous êtes
+                                            mineur</em>.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/conditions/1.PNG" class="img-fluid" alt="Code de l'exercice 1"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 2 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 2</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer une variable <strong>num</strong> et lui donner une valeur.
+                                    </li>
+                                    <li class="mb-2">Si elle est paire, afficher dans la console <em>Le nombre est
+                                            pair</em>, sinon afficher <em>Le nombre est impair</em>.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/conditions/2.PNG" class="img-fluid" alt="Code de l'exercice 2"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 3 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 3</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer une variable <strong>mark</strong> et lui donner une valeur.
+                                    </li>
+                                    <li class="mb-2">Si sa valeur est entre 0 et 3 afficher dans la console
+                                        <em>Mauvais</em>.</li>
+                                    <li class="mb-2">Si sa valeur est entre 4 et 5 afficher dans la console
+                                        <em>Moyen</em>.</li>
+                                    <li class="mb-2">Si sa valeur est entre 6 et 7 afficher dans la console <em>Assez
+                                            Bien</em>.</li>
+                                    <li class="mb-2">Si sa valeur est entre 8 et 9 afficher dans la console
+                                        <em>Bien</em>.</li>
+                                    <li class="mb-2">Si sa valeur est égale à 10 afficher dans la console
+                                        <em>Excellent</em>.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/conditions/3.PNG" class="img-fluid" alt="Code de l'exercice 3"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article> 
+                    </div>
+
+                    <!--===============================================================================================================-->
+                    <!-- Exercice 4 -->
+                    <div
+                        class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article
+                            class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 4</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer une variable
+                                        <strong>day</strong> et lui attribuer une valeur
+                                        entre 1 et 7.</li>
+                                    <li class="mb-2">A l'aide d'un switch, afficher dans
+                                        la console : <em>Lundi</em> si
+                                        <strong>day</strong> est égal à 1,
+                                        <em>Mardi</em> si égal à 2, etc.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/conditions/4.PNG" class="img-fluid" alt="Code de l'exercice 4"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 5 -->
+                    <div
+                        class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article
+                            class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 5</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer une variable
+                                        <strong>value</strong> et lui affecter une
+                                        valeur.</li>
+                                    <li class="mb-2">Ecrire une phrase dans la console
+                                        précisant le type de la valeur :
+                                        <em>La valeur entrée est une chaîne</em>.</li>
+                                    <li class="mb-2">Tester avec des valeurs de type
+                                        chaine, nombre et booléen.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/conditions/5.PNG" class="img-fluid" alt="Code de l'exercice 5"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/fondamentaux/conditions.js"></script>
+    <script src="../public/assets/js/script.js"></script>
+</body>
+
+</html>

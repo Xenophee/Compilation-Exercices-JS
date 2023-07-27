@@ -1,0 +1,250 @@
+
+@import url(./variables.css);
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* GENERAL */
+
+* {
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    color: var(--fourth-color);
+}
+
+body {
+    background-image: var(--background);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+main {
+    margin-top: 15vh;
+}
+
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* TEXTES */
+
+h1 {
+    background-color: var(--third-color);
+    border: var(--second-border-medium-solid);
+}
+
+h1, h2, legend {
+    font-family: var(--special-font);
+}
+
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* NAVIGATION */
+
+nav {
+    background-color: var(--second-color);
+    border-bottom: var(--third-border-medium-solid);
+}
+
+.navbar-brand {
+    color: var(--first-color);
+    font-family: var(--special-font);
+    transition: 1s;
+}
+
+.navbar-brand:hover {
+    color: var(--third-color);
+}
+
+.nav-link {
+    position: relative; 
+    color: var(--fourth-color);
+    transition: 1s;
+}
+
+.nav-link.active { 
+    color: var(--first-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--first-color);
+}
+
+.nav-link.active::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    border-bottom: var(--first-border-solid);
+    transition: 1s;
+}
+
+.nav-link::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 5px;
+    width: 0%;
+    border-bottom: var(--first-border-solid);
+    transform: scaleX(0);
+    transition: 1s;
+}
+
+.nav-link:hover::before {
+    transform: scaleX(1);
+    width: 100%;
+}
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* INDEX */
+
+.container-index {
+    width: 100%;
+    height: 80vh;
+}
+
+.background-index {
+    background-color: var(--first-filter-color);
+    width: 70%;
+    min-height: 55vh;
+}
+
+.index {
+    width: 70%;
+    background-color: var(--first-color);
+    border: var(--second-border-strong-double);
+}
+
+#indexTitle {
+    background-color: var(--second-color);
+}
+
+.index p {
+    color: var(--second-color);
+}
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* BLOCS */
+
+.main-container {
+    background-color: var(--first-filter-color);
+    min-height: 80vh;
+    width: 90%;
+}
+
+.result-container {
+    background-color: var(--second-filter-color);
+    width: 90%;
+}
+
+.exo {
+    background-color: var(--second-color);
+    border: var(--first-border-strong-solid);
+}
+
+article {
+    height: 100%;
+}
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* MODALS */
+
+dialog {
+    background-color: var(--second-color);
+}
+
+dialog::backdrop {
+    background-color: #2c2c2caf;
+}
+
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* BOUTONS */
+
+.btn {
+    background-color: var(--fourth-color);
+    color: var(--second-color);
+    border: var(--first-border-solid);
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border: var(--third-border-solid);
+}
+
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* FORMULAIRE */
+
+form {
+    background-color: var(--first-filter-color);
+    border: var(--first-border-solid);
+}
+
+legend, label {
+    color: white;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.focusField {
+    background-color: var(--third-color) !important;
+}
+
+.border-success, .border-danger {
+    border-width: 7px;
+}
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* SPECIAL */
+
+#list {
+    padding: 0;
+}
+
+#languagesList li, .description, .description span {
+    color: white;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.red {
+    color: red !important;
+}
+
+
+/* ========================================================================================================================= */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+    .exo {
+        box-shadow: var(--box-shadow);
+    }
+    .background-index {
+        min-height: 50vh;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .background-index {
+        min-height: 70vh;
+    }
+}

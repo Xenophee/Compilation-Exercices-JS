@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Les objets</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="../index.html">Fondamentaux-JS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse ps-3" id="navbarNav">
+                    <ul class="navbar-nav mt-4 mt-md-0">
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" aria-current="page" href="./variables.html">Variables</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./conditions.html">Conditions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./fonctions.html">Fonctions</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./tableaux.html">Tableaux</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./boucles.html">Boucles</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./selecteurs.html">Sélecteurs</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link fs-5" href="./evenements.html">Evènements</a>
+                        </li>
+                        <li class="nav-item mx-xl-auto">
+                            <a class="nav-link active fs-5" href="./objets.html">Objets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main>
+        <section>
+            <div class="container-fluid main-container shadow-lg py-3 py-md-5 px-md-5 mb-5">
+                <h1 class="text-center shadow py-3 mb-5">Les objets</h1>
+
+                <div class="row justify-content-around pt-md-5">
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 1 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 1</h2>
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer un nouvel objet <strong>user1</strong> composé des propriétés <strong>lastname</strong>, <strong>firstname</strong>, <strong>age</strong>, <strong>phone</strong>, et <strong>birthdate</strong>.</li>
+                                    <li class="mb-2">Ses propriétés posséderont les valeurs suivante : "Musk, Elon, 51, 0422521010, 1971-06-28".</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/1.PNG" class="img-fluid" alt="Code de l'exercice 1"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 2 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 2</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Avec l'objet créé à l'exercice 1, modifier le numéro de téléphone par "415-222-9670".</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/2.PNG" class="img-fluid" alt="Code de l'exercice 2"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 3 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 3</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Supprimer la valeur de la propriété <strong>age</strong>.</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/3.PNG" class="img-fluid" alt="Code de l'exercice 3"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 4 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 4</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Supprimer la propriété <strong>age</strong>.</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/4.PNG" class="img-fluid" alt="Code de l'exercice 4"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 5 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 5</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer un tableau dans une constante contenant les noms suivants : "Nevada, Vivian, Griffin, Kai, Saxon, Damian, Exa".</li>
+                                    <li class="mb-2">Avec l'objet créé à l'exercice 1, ajouter la propriété <strong>children</strong> contenant le tableau précédemment créé.</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/5.PNG" class="img-fluid" alt="Code de l'exercice 5"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 6 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 6</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Soit la fonction suivante : <br> <code>function getFullName(){
+                                        return this.firstname+ ' ' +this.lastname;
+                                    };</code></li>
+                                    <li class="mb-2">Avec l'objet créé à l'exercice 1, ajouter la propriété <strong>getFullName</strong> contenant la fonction créée précédement.</li>
+                                    <li class="mb-2">Afficher l'objet dans la console.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/6.PNG" class="img-fluid" alt="Code de l'exercice 6"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 7 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 7</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Créer un nouvel objet <strong>user2</strong>, possédant les mêmes propriétés que l'objet <strong>user1</strong>, mais avec des valeurs différentes.</li>
+                                    <li class="mb-2">Créer un nouveau tableau composé des 2 objets précédemment créés.</li>
+                                    <li class="mb-2">Afficher ce tableau.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/7.PNG" class="img-fluid" alt="Code de l'exercice 7"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- =============================================================================================================== -->
+                    <!-- Exercice 8 -->
+                    <div class="col-12 col-md-10 col-xl-5 col-xxl-3 exo mx-md-3 mx-xxl-5 my-2 my-md-5">
+                        <article class="d-flex flex-column justify-content-between py-3 px-1 py-md-4 px-md-4">
+                            <h2 class="text-center py-3 mb-4">Exercice 8</h2>
+
+                            <div class="text">
+                                <ul>
+                                    <li class="mb-2">Dans la console afficher le nom complet de chaque utilisateur dans le tableau, ainsi que la liste de tous les enfants entre parenthèses et séparés par des '-'.</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <dialog><img src="../public/assets/img/objets/8.PNG" class="img-fluid" alt="Code de l'exercice 8"></dialog>
+                                <button type="button" class="btn showCode d-block shadow px-5 py-2 mt-3">Voir le
+                                    code</button>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ===================================================================================================================================================================== -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/fondamentaux/objets.js"></script>
+    <script src="../public/assets/js/script.js"></script>
+</body>
+
+</html>

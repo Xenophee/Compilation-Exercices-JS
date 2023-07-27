@@ -1,0 +1,25 @@
+:root {
+
+    --special-font: 'Russo One', sans-serif;
+    --main-font: 'Chakra Petch', sans-serif;
+
+    --first-color: #030303;
+    --second-color: #e8d44d;
+    --third-color: #e2c430;
+    --fourth-color: #2c2c2c;
+
+    --first-filter-color: #0303037c;
+    --second-filter-color: #e2c43044;
+
+    --first-border-solid: #030303 2px solid;
+    --first-border-strong-solid: #030303 7px solid;
+    --second-border-medium-solid: #e8d44d 3px solid;
+    --second-border-strong-double: #e8d44d 7px double;
+
+    --third-border-solid: #e2c430 2px solid;
+    --third-border-medium-solid: #e2c430 5px solid;
+
+    --background: url(../img/2230_generated.jpg);
+
+    --box-shadow: 30px -16px var(--third-color);
+}
